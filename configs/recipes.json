@@ -1,0 +1,148 @@
+{
+ "base": {
+  "cfg": {
+   "P": 256,
+   "K": 2,
+   "steps": 2000,
+   "lr": 0.0003,
+   "p_in": 0.1,
+   "mav_w": 20,
+   "dom_std": true,
+   "hid": 1024
+  },
+  "ft": null,
+  "rulers": {
+   "dev2": {
+    "std_heard": 20.9,
+    "std_unheard": 20.97,
+    "gen_heard": 29.35,
+    "gen_unheard": 28.11,
+    "avg": 24.83
+   },
+   "dev2s": {
+    "std_heard": 21.94,
+    "std_unheard": 22.0,
+    "gen_heard": 30.29,
+    "gen_unheard": 29.11,
+    "avg": 25.83
+   },
+   "cv": {
+    "std": 15.98,
+    "gen": 23.94,
+    "avg": 19.96
+   }
+  }
+ },
+ "tau003_p05_ft200": {
+  "cfg": {
+   "P": 256,
+   "K": 2,
+   "steps": 2000,
+   "lr": 0.0003,
+   "p_in": 0.1,
+   "mav_w": 20,
+   "dom_std": true,
+   "hid": 1024,
+   "tau": 0.03,
+   "p": 0.5
+  },
+  "ft": [
+   200,
+   1e-05
+  ],
+  "rulers": {
+   "dev2": {
+    "std_heard": 19.84,
+    "std_unheard": 19.83,
+    "gen_heard": 29.15,
+    "gen_unheard": 27.4,
+    "avg": 24.05
+   },
+   "dev2s": {
+    "std_heard": 20.85,
+    "std_unheard": 20.8,
+    "gen_heard": 29.95,
+    "gen_unheard": 28.89,
+    "avg": 25.12
+   },
+   "cv": {
+    "std": 15.0,
+    "gen": 22.92,
+    "avg": 18.96
+   }
+  }
+ },
+ "tau002_ft200": {
+  "cfg": {
+   "P": 256,
+   "K": 2,
+   "steps": 2000,
+   "lr": 0.0003,
+   "p_in": 0.1,
+   "mav_w": 20,
+   "dom_std": true,
+   "hid": 1024,
+   "tau": 0.02
+  },
+  "ft": [
+   200,
+   1e-05
+  ],
+  "rulers": {
+   "dev2": {
+    "std_heard": 19.92,
+    "std_unheard": 19.59,
+    "gen_heard": 29.44,
+    "gen_unheard": 27.66,
+    "avg": 24.15
+   },
+   "dev2s": {
+    "std_heard": 20.74,
+    "std_unheard": 20.74,
+    "gen_heard": 30.21,
+    "gen_unheard": 28.81,
+    "avg": 25.12
+   },
+   "cv": {
+    "std": 15.25,
+    "gen": 23.16,
+    "avg": 19.21
+   }
+  }
+ },
+ "tau002": {
+  "cfg": {
+   "P": 256,
+   "K": 2,
+   "steps": 2000,
+   "lr": 0.0003,
+   "p_in": 0.1,
+   "mav_w": 20,
+   "dom_std": true,
+   "hid": 1024,
+   "tau": 0.02
+  },
+  "ft": null,
+  "rulers": {
+   "dev2": {
+    "std_heard": 20.55,
+    "std_unheard": 20.46,
+    "gen_heard": 29.44,
+    "gen_unheard": 27.37,
+    "avg": 24.46
+   },
+   "dev2s": {
+    "std_heard": 21.46,
+    "std_unheard": 21.31,
+    "gen_heard": 30.57,
+    "gen_unheard": 28.48,
+    "avg": 25.46
+   },
+   "cv": {
+    "std": 15.27,
+    "gen": 23.04,
+    "avg": 19.16
+   }
+  }
+ }
+}

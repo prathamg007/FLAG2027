@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+features/
+pretrained/
+data/*
+!data/manifests/
+models/*.ckpt.pt
+models/*.zip
+models/*/
+precomputed/cv_dumps/
+*.lock

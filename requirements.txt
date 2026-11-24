@@ -1,0 +1,6 @@
+# training, inference, anchor term, combination, validation (Python 3.12)
+# torch from https://download.pytorch.org/whl/cu121
+numpy==2.2.6
+scikit-learn==1.7.2
+scipy==1.16.1
+torch==2.5.1+cu121

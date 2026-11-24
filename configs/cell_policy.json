@@ -1,0 +1,8 @@
+{
+ "choice": {
+  "no_gender English": "tau003_p05_ft200",
+  "no_gender Bangla": "tau002_ft200",
+  "gender English": "tau003_p05_ft200",
+  "gender Bangla": "tau002"
+ }
+}
